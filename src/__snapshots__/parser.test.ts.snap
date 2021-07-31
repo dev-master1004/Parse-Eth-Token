@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addUniqueId adds a deterministic unique ID to tokens 1`] = `
+Array [
+  Object {
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18,
+    "name": "Foo",
+    "symbol": "FOO",
+    "uuid": "163503a1-bc37-52d8-8325-0a2b5869563d",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000001",
+    "decimals": 18,
+    "name": "Bar",
+    "symbol": "BAR",
+    "uuid": "f653068e-ed65-5359-a950-b0d5cb3c7977",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000002",
+    "decimals": 18,
+    "name": "Baz",
+    "symbol": "BAZ",
+    "uuid": "825e38a3-3ad3-5cd4-ae41-4b36bb82ca52",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000003",
+    "decimals": 18,
+    "name": "Qux",
+    "symbol": "QUX",
+    "uuid": "b2f15f5a-c2db-5b87-88d3-a7c92d54b52d",
+  },
+]
+`;
+
+exports[`addUniqueId adds a deterministic unique ID to tokens 2`] = `
+Array [
+  Object {
+    "address": "0x0000000000000000000000000000000000000000",
+    "decimals": 18,
+    "name": "Foo",
+    "symbol": "FOO",
+    "uuid": "b79e2448-8d6a-5a4c-8b19-b06847d10461",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000001",
+    "decimals": 18,
+    "name": "Bar",
+    "symbol": "BAR",
+    "uuid": "9227ccb6-bcd8-532e-812c-389ecc8804f5",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000002",
+    "decimals": 18,
+    "name": "Baz",
+    "symbol": "BAZ",
+    "uuid": "7f875eb6-2bbe-51e1-a303-9f81a9b38852",
+  },
+  Object {
+    "address": "0x0000000000000000000000000000000000000003",
+    "decimals": 18,
+    "name": "Qux",
+    "symbol": "QUX",
+    "uuid": "7e57e5b3-4967-501f-9ddc-9e906b11b49d",
+  },
+]
+`;
